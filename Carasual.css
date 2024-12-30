@@ -1,0 +1,8 @@
+.newimg{
+ height: 60vh;
+ width: 80vw;
+}
+.newimg img{
+ height: 100%;
+ width: 100%;
+}

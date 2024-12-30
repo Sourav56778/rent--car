@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Palanquin+Dark:wght@400;500;600;700&family=Permanent+Marker&display=swap');
+*{
+ scroll-behavior: smooth;
+}
+.maindiv{
+ display: flex;
+ height: 90vh;
+ justify-content: space-around;
+ align-items: center;
+ 
+ padding: 0 2rem;
+}
+.right-div-about{
+ /* border: 2px solid black; */
+ height: 70vh;
+ width: 100vh;
+ 
+}
+.right-div-about img{
+ box-shadow:1px 17px 30px black;
+ height: 100%;
+ width: 100%;
+ border-top-left-radius: 15%;
+ border-bottom-left-radius: 15%;
+}
+.left-div-home{
+ /* border: 2px solid black; */
+
+}
+.left-info{
+ width: 45vw;
+ /* border: 2px solid black; */
+}
+.left-info h1{
+ font-size: 4rem;
+ font-family: "Palanquin Dark", sans-serif;
+ padding-bottom: 2rem;
+}
+.left-info p{
+ font-size: 18px;
+}
+.left-info button{
+ padding: 10px 20px;
+ border: none;
+ border-radius: 10px;
+ background-color: black;
+ color: white;
+ font-size: 18px;
+}
